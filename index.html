@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-[100vw] h-[20vh] bg-[#cdb4db] flex justify-center items-center">
+        <p class="text-black text-[3rem]" id = "endresult">Stone,Paper and Scissor</p>
+    </div>
+    <div class="w-[100vw] h-[80vh] flex justify-around bg-[#cdb4db]">
+    <div>
+        <p class="text-[6rem] mt-[2rem]">You</p>
+        <select class="mt-[3rem] text-[4rem] bg-[#cdb4db] text-orange-100" id="youroptions">
+            <!-- <option unselected>
+                choose
+            </option> -->
+            <option value="Stone">
+                Stone
+            </option>
+            <option value="Paper">
+                Paper
+            </option>
+            <option value="Scissor">
+               Scissor
+            </option>
+        </select>
+    </div>
+    <!-- <button id="btn" class="w-[8rem] h-[5rem] bg-red-400 mt-[13rem] text-[3rem] rounded-[2rem] border-solid border-black border-4">Go</button>-->
+    <div > 
+        <p class="text-[6rem] mt-[2rem]">Computer</p>
+       <div class= "w-1"> <p class="mt-[4rem] text-[3.5rem] text-red-700" id="robotics">~~</p></div>
+    </div>
+
+    <select class="hidden" id="robotoptions">
+        <!-- <option selected>
+            choose
+        </option> -->.
+        <option class="l1" value="Stone">
+            Stone
+        </option>
+        <option class="l1" value="Paper">
+            Paper
+        </option>
+        <option class="l1" value="Scissor">
+           Scissor
+        </option>
+    </select>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
